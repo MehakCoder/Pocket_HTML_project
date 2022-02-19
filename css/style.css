@@ -291,3 +291,32 @@ a{
            color: var(--baseColor);
 }
 /* Testimonials */
+#testimonials{
+          background: var(--tealbg);
+          padding: 80px 30px;
+          display: flow-root;
+          position: relative;
+          margin-top: -300px;
+          bottom: -300px;
+}
+.testimonial{
+           width: 30.6%;
+           float: left;
+           margin-right: 45px;
+}
+.testimonial :last-child{
+                margin-right: 0;   
+}
+.testimonial image{
+              width: 60px;
+              float: left;
+              margin-right: 20px;
+              display: block;
+}
+.testimonial .client{
+             color: var(--baseColor);
+             font-size: 22px;
+             font-weight: bold;
+             display: block;
+             margin-bottom: 8px;
+}
