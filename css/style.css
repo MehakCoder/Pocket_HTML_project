@@ -232,9 +232,8 @@ a{
   color: #fff;
 }
 
-.servicebox .active p,
-.servicebox .active a{
-              color: #fff
+.servicebox.active p, .servicebox.active a {
+  color: #fff;
 }
 /* About Us */
 .rate{
