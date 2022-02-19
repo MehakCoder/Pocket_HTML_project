@@ -227,10 +227,11 @@ a{
             color: var(--baseColor);
             display: block;
 }
-.servicebox .active{
-            background: var(--baseColor);
-            color: #fff;
+.servicebox.active {
+  background: var(--baseColor);
+  color: #fff;
 }
+
 .servicebox .active p,
 .servicebox .active a{
               color: #fff
