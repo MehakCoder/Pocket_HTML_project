@@ -349,3 +349,21 @@ a{
 .gallery1 img{
 	width: 100%;
 }
+/* our Team */
+.team{
+      width: 32px;
+      float: left;
+      text-align: center;
+      margin-right: 20px;
+      padding-bottom: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 4px 0 rgb(0 0 0 / 5%);
+}
+.team:last-child{
+  margin-right: 0;
+}
+.team .team-image {
+            margin-bottom: 20px;
+            width: 34px;
+}
