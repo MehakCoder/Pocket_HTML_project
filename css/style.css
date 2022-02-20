@@ -351,7 +351,6 @@ a{
 }
 /* our Team */
 .team{
-      width: 32px;
       float: left;
       text-align: center;
       margin-right: 20px;
@@ -365,5 +364,32 @@ a{
 }
 .team .team-image {
             margin-bottom: 20px;
-            width: 34px;
+}
+.team .team-member{
+            font-size: 20px;
+            line-height: 32px;
+            font-weight: bold;
+            display: block;
+}
+.team .team-designation{
+	color: var(--baseColor);
+	font-size: 16px;
+}
+/* callout */
+.callout{
+       width: 50px;
+       margin: 0px auto 80px;
+}
+.callout img{
+     float: left;
+     margin-right: 30px;
+}
+.callout p{
+        font-size: 16px;
+        font-weight: bold;
+        color: var(--tealbg);
+}
+.callout p{
+        color: var(--baseColor);
+        font-size: 18px;
 }
