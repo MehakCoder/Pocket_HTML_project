@@ -333,3 +333,19 @@ a{
 	color: #fff;
 	margin: 0;
 }
+/* Gallery */
+#carousel-gallery.container{
+          width: 90%;
+}
+.gallery1{
+      width: 23.3%;
+      margin-right: 25px;
+      float: left;
+}
+.gallery1:last-child{
+	margin-right: 0;
+}
+
+.gallery1 img{
+	width: 100%;
+}
