@@ -295,17 +295,16 @@ a{
           background: var(--tealbg);
           padding: 80px 30px;
           display: flow-root;
-          position: relative;
-          margin-top: -300px;
-          bottom: -300px;
+          
 }
 .testimonial{
            width: 30.6%;
            float: left;
            margin-right: 45px;
+           
 }
-.testimonial :last-child{
-                margin-right: 0;   
+.testimonial:last-child{
+	margin-right: 0;
 }
 .testimonial image{
               width: 60px;
@@ -319,4 +318,18 @@ a{
              font-weight: bold;
              display: block;
              margin-bottom: 8px;
+}
+.testimonial .client-designation{
+                color: #fff;
+                display: block;
+}
+.testimonial .rating-star{
+                color: var(--baseColor);
+                font-size: 23px;
+                margin: 25px 0 20px;
+                clear: both;
+}
+.testimonial p{
+	color: #fff;
+	margin: 0;
 }
