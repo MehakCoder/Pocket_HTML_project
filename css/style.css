@@ -377,7 +377,7 @@ a{
 }
 /* callout */
 .callout{
-       width: 50px;
+       width: 50%;
        margin: 0px auto 80px;
 }
 .callout img{
@@ -389,7 +389,7 @@ a{
         font-weight: bold;
         color: var(--tealbg);
 }
-.callout p{
-        color: var(--baseColor);
-        font-size: 18px;
+.callout p span{
+	color: var(--baseColor);
+	font-size: 18px;
 }
