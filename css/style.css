@@ -454,9 +454,6 @@ a{
 #whyrate{
     width: 30%;
     float: left;
-    display: flex;
-    position: relative;
-    align-content: flex-start;
     }
     #whyus .rate{
       background: #fff;
@@ -470,5 +467,13 @@ a{
     #whyus .rate .percentage{
       color: var(--tealbg);
     }
-
+    /* Faq */
+  #faq{
+    list-style: none;
+    padding: 0;
+  }
+  #faq li{
+        background: #fff;
+        margin-bottom: 15px;
+  }
 
