@@ -412,3 +412,6 @@ a{
        padding: 0 36px;
 }
 /* why us */
+#whyus{
+  background: var(--tealbg) url(../image/);
+}
