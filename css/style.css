@@ -416,3 +416,48 @@ a{
   background: var(--tealbg) url(../image/building.jpg)no-repeat top right;
   background-size: contain;
 }
+#whyus.section{
+        padding: 100px 0 0;
+}
+#whycontent{
+         color: #fff;
+         width: 55%;
+         margin-right: 100px;
+         float: left;
+}
+#whycontent p,
+#whycontent h2{
+	color: #fff;
+}
+.whylists{
+     margin-bottom: 40px;
+     clear: both;
+}
+.whylists .fa-check{
+	background: var(--baseColor);
+	font-size: 18px;
+	border-radius: 3px;
+	padding: 15px;
+	margin:0 20px 37px 0;
+	float: left;
+}
+.whylists h3{
+         margin-bottom: 8px;
+}
+#whyrate{
+	width: 30%;
+	float: left;
+}
+#whyus .rate{
+	background: #fff;
+	width: 300px;
+	padding: 30px;
+}
+
+#whyus .rate:nth-child(even){
+	margin-left: 35px;
+}
+
+#whyus .rate .percentage{
+	color: var(--tealbg);
+}
