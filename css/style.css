@@ -393,3 +393,21 @@ a{
 	color: var(--baseColor);
 	font-size: 18px;
 }
+/* Client */
+#client{
+      padding: 60px 0;
+      border-top: 1px solid lightgray;
+}
+#client ul{
+         list-style: none;
+         margin: 0;
+         padding: 0;
+}
+#client ul li{
+          float: left;
+          padding: 0 25px;
+}
+#client ul li a{
+       display: block;
+       padding: 0 36px;
+}
