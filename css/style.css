@@ -507,5 +507,14 @@ a{
       float: left;
 }
 .counter .counter-content{
-  
+                  color: #303030;
+                  background-color: #fff;
+                  height: 160px;
+                  width: 160px;
+                  padding: 55px 28px;
+                  margin: 0 auto 20px;
+                  border-radius: 50%;
+                  position: relative;
+                  transition: all 0.3s;
+
 }
