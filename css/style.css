@@ -416,8 +416,9 @@ a{
 
 #whyus{
 	background: var(--tealbg) url(../image/building.jpg) no-repeat top right;
-  background-size: contain;
+  width: auto;
 }
+
 #whyus.section{
           padding: 100px 0 0;
 }
@@ -455,7 +456,7 @@ a{
     width: 30%;
     float: left;
     }
-    #whyus .rate{
+    #whyus .rate {
       background: #fff;
       width: 300px;
       padding: 30px;
@@ -476,4 +477,35 @@ a{
         background: #fff;
         margin-bottom: 15px;
   }
-
+  #faq li h4{
+        background: #fff;
+        color: var(--tealbg);
+        font-size: 18px;
+        padding: 25px;
+        margin: 0;    
+  }
+  #faq li h4:hover{
+         background: var(--baseColor);
+         color: #fff;
+  }
+  #faq li h4:active + p{
+    display: block;
+  }
+  
+  #faq li p{
+    padding: 10px;
+    margin: 0;
+    display: none;
+  }
+/* counter */
+.counter{
+      text-align: center;
+      width: 25%;
+      padding: 0 0 35px 0;
+      position: relative;
+      z-index: 1;
+      float: left;
+}
+.counter .counter-content{
+  
+}
