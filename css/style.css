@@ -549,7 +549,7 @@ a{
 /*VideoBg*/
 #videobg{
 	color: 	#fff;
-	background: url(../images/video-bg.jpg);
+	background: url(../image/video-bg.jpg);
 	padding: 200px 0;
 	text-align: center;
 	position: relative	;
