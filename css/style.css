@@ -413,5 +413,6 @@ a{
 }
 /* why us */
 #whyus{
-  background: var(--tealbg) url(../image/);
+  background: var(--tealbg) url(../image/building.jpg)no-repeat top right;
+  background-size: contain;
 }
