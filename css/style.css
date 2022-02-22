@@ -116,7 +116,7 @@ a{
   }
   #logo{
     display: inline-block;
-    float: left;
+    float: none;
   }
   #logobar .readmore{
     color: #fff;
@@ -127,16 +127,18 @@ a{
   .company-info .fa{
     color:var(--baseColor);
     font-size: 30px;
-    margin:5px 0px 0px 2px;
+    margin: 5px 10px 5px 2px;
     float: left;
   }
   #logobar  .company-info{
-              float: right;
-              margin-right: 80px;
+                  border: 1px solid #000;
+                  padding: 10px 5px 10px 5px;
+                  margin:0px 5px auto 10px;
+                  float: right
   }
   #logobar .company-info .hd{
                     font-weight: bold;
-                    display: block;
+                    margin: 15px;
   }
   /* Menubar */
   #Menubar{
@@ -265,7 +267,7 @@ a{
        float: left;
        box-shadow: 0 0 30px 0 rgb( 0 0 0 / 9%);
 }
-.servicebox2 : last-child{
+.servicebox2:last-child{
             margin-right: 0;
 }
 .servicebox2 img{
@@ -598,13 +600,13 @@ a{
 	position: relative	;
 }
 
-.slider-blog .blog-img .blog-date{
-	color: #fff;
-	background: var(--baseColor);
-	padding: 7px;
-	position: absolute;
-	bottom: 	0px;
-	left: 	20px;
+.slider-blog .blog-img .blog-date {
+  color: #fff;
+  background: var(--baseColor);
+  padding: 7px;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
 }
 
 .slider-blog img{
@@ -651,4 +653,197 @@ a{
 
 .slider-content .blog-detail{
 	color: var(--textColor)	;
+}
+/*Footer*/
+#footer{
+	color: #fff;
+	background: var(--tealbg);
+}
+
+#footer a,
+#footer p{
+  color: #fff;
+}
+
+#footer-sidebar{
+	display: flow-root;
+	padding: 70px 0 0;
+}
+
+#footer .widget{
+	width:24%;
+	float: 	left;
+	margin-right: 	15px;
+}
+
+#footer .widget:last-child{
+  margin-right:0;
+}
+
+#footer .widget h4{
+  font-size: 20px;
+}
+
+#footer ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#footer a:hover{
+	color: var(--baseColor);
+}
+
+.footer-social li{
+  float: left;
+}
+
+.footer-social li a{
+	background:#012e33;
+	padding: 5px 15px;
+	margin-right: 	8px;
+	border-radius: 3px;
+  display: 	block;
+}
+
+.footer-social li a:hover{
+  background: var(--baseColor);
+}
+
+#footer .recent-blog img{
+   width: 70px;
+   margin: 	0 10px 20px 0;
+   float: left;
+}
+
+#footer .recent-blog .post-date{
+	display: block;
+}
+
+#footer .projects-slider{
+  width: 100%;
+}
+
+#footer-copyright{
+	padding: 20px 0;
+	display: flow-root;
+	clear: both;
+}
+
+#footer-copyright > span{
+	float: left;	
+}
+
+#footer-copyright > ul{
+	float: right;	
+}
+
+#footer-copyright > ul li{
+	display: inline-block;
+	margin-bottom: 	0;	
+}
+
+#footer-copyright > ul li a{
+ padding: 10px;
+}
+
+#footer-sidebar:after{
+	display: block;
+	content: "";
+	width: 	80%;
+	margin: 0 auto 20px;
+	clear: both;
+	border-bottom: 2px solid lightgray;
+}
+/*Media Query*/
+
+@media screen and (max-width: 1170px){
+	.container{
+		width: 850px;
+	}
+	#book-bar ul{
+		padding-left:5px ;
+	}
+	#logo{
+		width: 160px;
+		display: block;
+		float: none;
+		margin: 0 auto 20px;
+	}
+	#logobar .company-info {
+	    float: left;
+	    margin-right: 150px;
+	}
+	.sectionhd h2 {
+	    font-size: 35px;
+	}
+	.servicebox{
+		width: 31.5%;
+		padding: 40px 20px;
+	}
+    .servicebox2{
+    	width: 31.5%;
+    }
+    .testimonial {
+      width: 47%;
+      margin: 0 45px 20px 0;
+      border: 1px solid #fff;
+    }
+    .testimonial:nth-child(2){
+    	margin: 0 0px 20px 0;
+    }
+    .gallery1 {
+	    width: 31%;
+	    margin-bottom: 25px;
+	}
+	.gallery1:nth-child(3n){
+		margin-right: 0;
+	}
+	#whyus .rate:nth-child(even){
+		margin-left: 0;
+	}
+	#whycontent{
+		margin-right: 50px;
+	}
+	.team {
+	    width: 31.5%;
+	}
+	#clients ul li {
+      padding: 0 5px
+	}
+
+	#clients ul li a{
+      padding: 0 25px;
+	}	
+    .slider-blog {
+      width: 31.5%;
+    }
+    #footer .widget {
+	    width: 23.6%;
+	}
+}
+
+@media screen and (max-width: 850px){
+	.container{
+		width: 90%;
+	}
+	#book-bar{
+		text-align: center;
+	}
+	#book-info{
+		float: none;
+		margin-bottom: 8px;
+	}
+	#book-bar ul{
+		float: none;
+	}
+	.servicebox {
+	    width: 47%;
+	    padding: 20px;
+	    margin: 0 20px 20px 0;
+	    bottom: 0;
+	}
+	.servicebox:nth-child(2){
+		 /*margin: -300px 0px 0 0;*/
+	}
 }
