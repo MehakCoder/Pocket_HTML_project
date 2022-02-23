@@ -112,23 +112,37 @@ a{
                   }
   /* logobar */
   #logobar{
-    padding: 15px 0px;
+    padding: 15px 0;
   }
+  
   #logo{
     display: inline-block;
-    float: none;
+    float: left;
   }
+  
   #logobar .readmore{
     color: #fff;
-    padding: 15px 25px;
     background: var(--baseColor);
+    padding: 15px 25px;
     float: right;
   }
-  .company-info .fa{
-    color:var(--baseColor);
-    font-size: 30px;
-    margin: 5px 10px 5px 2px;
+  
+  #logobar .company-info{
+    float: right;
+    width: 250px;
+    margin-right: 80px;
+  }
+  
+  #logobar .company-info .hd{
+    font-weight: bold;
+    display: block;
+  }
+  
+  #logobar .company-info .fa{
+    color: var(--baseColor);
+    font-size: 35px;
     float: left;
+    margin-right: 15px;
   }
   #logobar  .company-info{
                   border: 1px solid #000;
