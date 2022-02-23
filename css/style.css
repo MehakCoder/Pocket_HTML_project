@@ -41,7 +41,6 @@ a{
   width: 1170px;
   margin: 0 auto;
   display: flow-root;
-  border: 1px solid black;
 }
 .darkbg{
       background: var(--tealbg)
@@ -110,51 +109,39 @@ a{
  #book-bar ul li a:hover{
                color: var(--baseColor);
                   }
-  /* logobar */
-  #logobar{
-    padding: 15px 0;
-  }
-  
-  #logo{
-    display: inline-block;
-    float: left;
-  }
-  
-  #logobar .readmore{
-    color: #fff;
-    background: var(--baseColor);
-    padding: 15px 25px;
-    float: right;
-  }
-  
-  #logobar .company-info{
-    float: right;
-    width: 250px;
-    margin-right: 80px;
-  }
-  
-  #logobar .company-info .hd{
-    font-weight: bold;
-    display: block;
-  }
-  
-  #logobar .company-info .fa{
-    color: var(--baseColor);
-    font-size: 35px;
-    float: left;
-    margin-right: 15px;
-  }
-  #logobar  .company-info{
-                  border: 1px solid #000;
-                  padding: 10px 5px 10px 5px;
-                  margin:0px 5px auto 10px;
-                  float: right;
-                  display: grid; 
-  }
-  #logobar .company-info .hd{
-                    font-weight: bold;
-                    margin: none;
-  }
+  /*logobar */
+#logobar{
+	padding: 15px 0;
+}
+
+#logo{
+	display: inline-block;
+	float: left;
+}
+
+#logobar .readmore{
+	color: #fff;
+	background: var(--baseColor);
+	padding: 15px 25px;
+	float: right;
+}
+
+#logobar .company-info{
+	float: right;
+	width: 250px;
+	margin-right: 80px;
+}
+
+#logobar .company-info .hd{
+	font-weight: bold;
+}
+
+#logobar .company-info .fa{
+	color: var(--baseColor);
+	font-size: 35px;
+	float: left;
+	margin-right: 15px;
+}
   /* Menubar */
   #Menubar{
     background: var(--baseColor);
@@ -779,6 +766,9 @@ a{
 	.container{
 		width: 850px;
 	}
+	#banner h2{
+		font-size: 45px;
+	}
 	#book-bar ul{
 		padding-left:5px ;
 	}
@@ -790,7 +780,7 @@ a{
 	}
 	#logobar .company-info {
 	    float: left;
-	    margin-right: 150px;
+	    margin-right: 80px;
 	}
 	.sectionhd h2 {
 	    font-size: 35px;
@@ -862,6 +852,229 @@ a{
 	    bottom: 0;
 	}
 	.servicebox:nth-child(2){
-		 /*margin: -300px 0px 0 0;*/
-	}
-}
+    .container{
+      width: 90%;
+    }
+    #banner{
+      text-align: center;
+    }
+    #logbar .company-info{
+              margin-right: 40px;
+    }
+    #book-bar{
+        text-align: center;
+    }
+    #book-info{
+          float: none;
+          margin-bottom: 8px;
+    }
+    #book-bar ul{
+            float: left;
+    }
+    .servicebox{
+            width: 47%;
+            padding: 20px;
+            margin: 0 20px 20px 0;
+            bottom: 0;
+    }
+    .servicebox:nth-child(2){
+      /*margin: -300px 0px 0 0;*/
+   }
+ 
+   #about .section{
+     padding: 100px 0;
+   }
+ 
+   .servicebox2 {
+       width: 48%;
+   }
+ 
+   .servicebox2:nth-child(3){
+     margin-right: 0;
+     margin-bottom: 21px;
+   }
+ 
+   .gallery1 {
+       width: 48%;
+   }
+ 
+   .gallery1:nth-child(2n){
+     margin-right: 0;
+   }
+   .gallery1:nth-child(3n) {
+       margin-right: 25px;
+   }
+ 
+   .team {
+       width: 48%;
+       margin-bottom: 25px;
+   }
+   .team:nth-child(3n) {
+      margin-right: 0;
+   }
+   .callout {
+       width: 100%;
+       margin: 0 0 80px;
+       padding: 50px;
+   }
+   .callout img {
+       float: none;
+   } 
+   #clients ul li {
+       padding: 0 15px;
+   }
+   #whyus {
+       background: var(--tealbg) ;
+   }
+   .whylist .fa-check {
+       margin: 0 20px 20px 0;
+       float: none;
+   }
+   #whyrate {
+       width: 50%;
+   }
+   #whycontent {
+     width: 45%;
+       margin-right: 30px;
+   }
+   #whyus .rate{
+     width: 90%;
+   }
+   .counter {
+       width: 49%;
+       padding: 0 0 35px 0;
+   }
+   .slider-blog {
+       width: 48%;
+       margin-bottom: 20px
+   }
+   .slider-blog:nth-child(3n){
+     margin-right: 0;	
+   }
+   #footer .widget {
+       width: 48%;
+   }
+   #footer-sidebar:after {
+      
+       width: 100%;
+       margin: 0 auto 0px;
+   }
+ }
+ 
+ @media screen and (max-width: 750px){
+   .section{
+     padding:60px 0; 
+   }
+   .w50 {
+       width: auto;
+       float: none;
+   }
+   #logobar{
+     text-align: center;
+   }
+   #logobar .company-info {
+       float: none;
+       margin-right:0;
+       margin-bottom: 20px;
+       line-height: 25px;
+       width: auto;
+   }
+   #logobar .company-info .fa{
+     float: none;
+   }
+   #logobar .readmore{
+     float: none;
+     display: inline-block;
+     margin-bottom: 20px;
+   }
+ 
+   .servicebox {
+       width: auto;
+       padding: 20px;
+       margin: 0 0px 20px 0;
+   }
+   .rate{
+     text-align: center;
+   }
+   .rate .fa{
+     float: none;
+     margin-bottom: 25px;
+   }
+   .servicebox2 {
+       width: auto;
+       margin:0 0 25px 0;
+   }
+ 
+   .testimonial {
+       width: auto;
+       margin: 0 0px 20px 0;
+   }
+ 
+   .gallery1 {
+       width: 100%;
+       margin-right: 0;
+   }
+   .team {
+       width: 60%;
+       margin: 0 auto 25px;
+       float: none;
+       clear: both;
+   }
+   .team:nth-child(3n) {
+       margin-right: auto;
+   }
+   .team:last-child{
+      margin-right: auto;
+   }
+   #whycontent {
+       width: auto;
+       margin-right: 0px;
+   }
+   #whyrate {
+       width: 100%;
+   }
+   #whyus .rate{
+     width: 100%
+   }
+   .counter {
+       width: 100%;
+   }
+   #videobg{
+     padding: 80px 0;
+     background-size: cover;
+   }
+   .slider-blog {
+       width: 100%;
+       margin-right: 0;
+       float: none;
+   }
+   #footer{
+     text-align: center;
+   }
+   #footer .widget {
+       width: 100%;
+       float: none;
+       margin-right: 0;
+       clear: both;
+   }
+   #footer ul{
+     display: inline-block;
+   }
+   #footer-copyright > span{
+     float: none;
+     display: block;
+     margin-bottom: 15px;
+   }
+   #footer-copyright > ul{
+     float: none;
+   }
+ }
+ 
+ @media screen and (max-width: 480px){
+   #book-bar{
+     display: none;
+   }
+   .team {
+       width: 100%;
+   }
+ }
