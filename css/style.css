@@ -471,6 +471,9 @@ a{
     #whyus .rate:nth-child(even){
       margin-left: 35px;
     }
+    #whyrate .rate img{
+     
+    }
     
     #whyus .rate .percentage{
       color: var(--tealbg);
